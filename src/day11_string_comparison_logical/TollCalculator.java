@@ -4,6 +4,7 @@ public class TollCalculator {
     public static void main(String[] args) {
         String vehicleType = "truck";
         boolean isRushHour = true;
+
         double tollPrice = 0;
         //-> "car" and no rushhour ==> 3.0
         if(vehicleType.equalsIgnoreCase("CAR") && isRushHour==false){
