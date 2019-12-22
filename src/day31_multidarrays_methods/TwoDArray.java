@@ -12,6 +12,7 @@ public class TwoDArray {
         list[0][0] = "Potatoes";
         list[0][1] = "Carrots";
         list[0][2] = "Onions";
+        //list[0] = new String[]{"Potatoes","Carrots","Onions"};
 
         //Add fruits
         list[1][0] = "Apples";
