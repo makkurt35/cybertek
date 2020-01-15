@@ -1,4 +1,4 @@
-package day41_encapsulation;
+package day41_class_object_practice;
 
 public class TV {
     String brand; //null
