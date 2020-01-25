@@ -7,6 +7,8 @@ public class MethodOverloading {
         sum(3, 1, 4);
         sum("hello", "10");
 
+        //FormatString.main(null);
+
     }
 
     public static void sum(int num1, int num2) {
