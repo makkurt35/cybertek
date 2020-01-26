@@ -1,5 +1,7 @@
 package day46_inheritance_intro;
 
+import day47_inheritance_02.SlackUser;
+
 public class DevicesTest {
     public static void main(String[] args) {
         Device device = new Device();
@@ -37,5 +39,7 @@ public class DevicesTest {
         smartPhone.call();//Phone
         smartPhone.text("Inheritance is fun!"); //Phone
         smartPhone.useApp("Slack"); //SmartPhone
+
+
     }
 }
