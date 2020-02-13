@@ -5,7 +5,7 @@ public class TryCatch {
         System.out.println("BEFORE TRY CATCH");
         try {
             System.out.println("In try block");
-            int result = 10 / 2;
+            int result = 10 / 0;
             System.out.println("After 10/0 line");
         }catch(ArithmeticException e){
             System.out.println("Exception happened , and was caught and handled!");
