@@ -13,4 +13,8 @@ public class Diamond extends Shape {
             System.out.println("     **********".substring(i-1,5+(2*i)-3));
     }
 
+    public void finalize(){
+        System.out.println("Diamond object is about to Garbage collected...");
+    }
+
 }
