@@ -5,6 +5,7 @@ public class Diamond extends Shape {
         type = "diamond";
     }
 
+
     @Override
     public void draw(){
         for (int i = 0; i < 5; i++)
