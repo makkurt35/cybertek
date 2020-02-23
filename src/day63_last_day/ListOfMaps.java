@@ -37,6 +37,8 @@ public class ListOfMaps {
             System.out.println(empMap.get("JobTitle"));
             totalSalary += Integer.parseInt(empMap.get("Salary"));
         }
+
+        //print totalSalary
         System.out.println("totalSalary = " + totalSalary);
 
     }
