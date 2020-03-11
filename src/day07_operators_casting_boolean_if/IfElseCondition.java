@@ -1,7 +1,5 @@
 package day07_operators_casting_boolean_if;
 
-import com.sun.xml.internal.bind.v2.runtime.output.StAXExStreamWriterOutput;
-
 public class IfElseCondition {
     public static void main(String[] args) {
         if(10 > 5) {
